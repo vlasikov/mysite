@@ -1,0 +1,118 @@
+/* ==== Google font ==== */
+/* =================================== 1. General ==================================== */
+body {
+    display: block;
+    margin: 0px;
+}
+
+ .main {
+     background: #ffffff;
+     padding: 0px;
+     margin: 0 auto;
+}
+
+ .wrapper {
+     max-width: 1000px;
+     min-height: 1000px;
+     margin: 0 auto;
+     font-family:'Open Sans', Arial, sans-serif;
+     font-size:14px;
+     font-weight:300;
+     line-height:1.6em;
+     color:#656565;
+     text-align: center;
+}
+
+ .header {
+     background: #ffffff;
+     padding: 0px;
+     font-size:18px;
+}
+
+ #content {
+     width: 100%;
+     background: #ffffff;
+     padding: 0px;
+}
+ .footer {
+     background: #ffffff;
+     padding: 0px;
+     clear: both; /* запрещаем обтекание с обоих сторон, блок выводится с новой строки */
+}
+/* =================================== 2. layout ==================================== */
+
+/* =================================== 3. Responsive media ==================================== */
+/* =================================== 4. Header ==================================== */
+
+
+/* =================================== 4. Header_link ==================================== */
+
+/* https://html5book.ru/vypadayushee-menu/ */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+nav {
+  background: #f2f2f2;
+     margin: 0 auto;
+     font-family:'Open Sans', Arial, sans-serif;
+     font-size:14px;
+     font-weight:300;
+     line-height:1.6em;
+     color:#656565;
+}
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+}
+/*
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+*/
+.topmenu > li a {
+  display: block;
+  padding: 0px 5px;
+  text-decoration: none;
+  outline: none;
+
+/*  font-family: 'Lora', serif; */
+/*  transition: .5s linear;*/
+}
+/*
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 0px;
+}
+*/
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+/*
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+*/
+}
+.one ul {
+  background: #f2f2f2;
+}
+.one ul a {
+  color: #695753;
+}
+.one .submenu {
+  display: none;
+  background: #f2f2f2;
+}
+.one ul li:hover .submenu {
+  display: block;
+}

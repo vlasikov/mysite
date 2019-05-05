@@ -4,6 +4,9 @@
     </IfModule>
 
     RewriteEngine On
+# здесь мы намеренно допускаем ошибку
+#    AHHHHHHH..
+
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
